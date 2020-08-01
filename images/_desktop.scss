@@ -1,0 +1,384 @@
+@import "variables";
+
+@media(min-width:720px){
+  *{
+    margin: 0;
+    padding: 0;
+    br { display: none; }
+  }
+  //header y nav-bar
+  header {
+    position: static;
+    top:0;
+    width: auto;
+    height: 80px;
+    white-space: nowrap;
+    img {
+        position: absolute;
+        top:22px;
+        left:100px;
+         width: 36px;
+         height: 36px;
+       }
+      .menu {  float: right;
+              margin-left:auto;   
+            position: static;
+            margin-top: 44px;
+            list-style-type: none;
+            overflow: visible;
+            list-style: none;
+            margin-right:2.5vw;
+             li {
+               text-decoration: none;
+                display: inline;
+                a {
+                    padding-left: 42px;
+                    text-decoration: none;
+                    color:$color-secundario;
+                    font-family: $tipografia-general;
+                    
+                    &:hover{
+                        font-family: $tipografia-extra;
+                        font-size: 16px;
+                        color: $color-buttom;
+                        letter-spacing: 0;
+                        line-height: 28px;
+                        text-decoration: line-through;
+                      }&:active{
+                        font-family: $tipografia-alternativa;
+                    font-size: 16px;
+                    color: rgba(6,10,36,0.56);
+                    letter-spacing: 0;
+                    line-height: 28px;
+                    text-decoration: line-through;
+                      }
+                  }}}
+          }
+      
+input{
+ opacity: 0;
+}
+///titulo y primer parrafo    
+    
+ section {
+        position: relative;
+        
+        margin-top:80px;
+        
+           .intro-desktop{
+            max-width: 628px;
+            height: 48px;
+            position: absolute;
+            padding-left: 200px;
+            margin-top: 204px;
+            font-size: 16px;
+            color: $color-secundario;
+            font-family: $tipografia-alternativa;
+            line-height: 24px;}
+            .intro-mobile{
+              opacity:0;}}
+              .hello {
+            width: 152px;
+            height: 84px;
+            position: absolute;
+            top:120px;
+            left: 200px;
+            font-size: 64px;
+            font-family:$tipografia-general;
+          }
+            .world {
+            text-decoration: line-through;
+            width: 179px;
+            height: 84px;
+            font-size: 64px;
+            position: absolute;
+            top:120px;
+            left:357px;
+            font-family:$tipografia-general;}
+            .pale {
+            width: 391px;
+            height: 84px;
+            font-size: 64px;
+            position:absolute;
+            top:120px;
+            left:531px;
+            font-family:$tipografia-general;} 
+            .dot {
+            color:$color-buttomhover;
+            width: 18px;
+            height: 84px;
+            font-size: 64px;
+            position: absolute;
+            left:914px;
+            top:120px;
+            font-family:$tipografia-general;}
+            button {
+            position: absolute;
+            top: 308px;
+            left: 200px;
+            background-color: $color-buttom;
+            width: 226px;
+            height: 56px;
+            text-align: center;
+            line-height: 24px;
+            font-family: $tipografia-extra;
+            color: $color-secundario;
+            font-size: 18px;
+            &:hover{
+                background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                font-family:$tipografia-extra;
+            font-size: 18px;
+            color:$color-extra;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 24px;
+            }
+          }  
+ }  
+ //episodios de spotify
+ .episodios{
+    align-content:center;
+    height:1042.6px;
+    
+    .paralelograma{
+        position: relative;
+        margin-top:200px;
+       width:100vw;
+        height:1042.6px;
+        clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    
+      }
+    
+      .episodiostitle{
+        position: absolute;
+        margin-top:186px;
+        font-family: $tipografia-general;
+      font-size: 48px;
+      color: $color-extra;
+      letter-spacing: 0;
+      line-height: 62px;
+      margin-left:200px;
+      
+      }
+    
+       
+      .iframes{
+      position: absolute;
+      margin-top:274px;
+      margin-left:100px;
+      max-width:1200px;
+      display: grid;
+      grid-auto-flow:column;
+      grid-column-gap: 72px;
+      grid-row-gap:72px;
+     max-width:1200px;
+      
+      grid-template-rows: repeat(2, 1fr);
+     border-radius: 2px;
+     
+      iframe{
+        margin-top:auto;
+        width:584px;
+        height:232px;
+        border:none;
+        overflow-x:hidden;
+        overflow-y:hidden;
+      
+      
+      }
+      }}
+      figure {
+        .fono{ 
+        position:relative; 
+        margin-top:-170px;
+        margin-left:14vw;
+         max-width:457.6px;
+         height: 660px; 
+         
+          z-index: 1;
+         }}
+    h3{
+    position: relative;
+    margin-top: 290px;
+    left:200px;
+    font-family: $tipografia-general;
+    font-size: 48px;
+    color:$color-secundario;
+      
+   }
+///imagen con texto a su costado      
+.parrafo2{ 
+  aside{ 
+    h2 {
+  position:relative;
+  margin-top:-500px; 
+  margin-left:720px;
+  max-width:399px;
+  height: 62px;
+  font-family: $tipografia-general;
+  font-size: 3.5vw;
+  color: $color-secundario;
+  margin-bottom: 70px;
+  letter-spacing: 0;
+  line-height: 42px;
+
+}
+   p{
+        position: relative;
+        padding-left:720px;
+        max-width: 464px;
+        height:204px;
+        white-space: initial;
+        font-family: $tipografia-alternativa;
+        font-size: 16px;
+        color: $color-secundario;
+        letter-spacing: 0;
+      }
+      }}
+///images de mujeres inspiradoras
+.flexcontainer {
+      position: relative;
+       width: 100vw;
+       height: 728px;
+      flex-direction: row;
+      display: flex;
+      flex-wrap:  wrap;
+    
+      
+    
+    img{
+      width: calc(100% / 3);
+      height: calc(100%/2);
+      
+    } }
+ //temas extra
+ .temas{
+   position: relative;
+  top:50px;
+  
+    h2{margin-left: 200px;
+        position: absolute;
+        top:50px;
+        font-family: 'IBM Plex Sans',sans-serif;
+        margin-left:9vw;
+       white-space:nowrap;
+       font-size: 48px;
+      }
+      .imagenes{
+        position: absolute;
+        top:195px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width:74vw;
+        margin-left:9vw;
+        gap :10vw;
+        img{
+      width: 104px;
+      height: 104px;
+       text-align: center;
+        }
+         }
+          
+         .frases{    
+           display:grid ;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+             position:absolute;
+             widows: 84vw;
+            top:328px;
+            font-family: 'IBM Plex Sans-SemiBold',sans-serif;
+           margin-left:5vw;
+            
+           h4{
+             font-family:$tipografia-adicional ;
+          font-size: 24px;
+          color: $color-secundario;
+          letter-spacing: 0;
+          width:220px;
+          text-align: center;
+          
+          }
+}}
+//final 
+.final{
+    position: relative;
+    top:550px;
+    display:flex;
+    box-sizing: content-box;
+    width:100vw;
+    height: 518px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+    h2{
+        position: absolute;
+        top:213px;
+       font-size:48px;
+        color:$color-extra;
+        font-family: $tipografia-general;
+        width: 46vw;
+        height: 62px;
+        z-index: 1;
+        margin-left: 23vw;
+        white-space:nowrap;
+        }
+        button{
+        position: absolute;
+        top:311px;
+       left: 32vw;
+        width:33vw;
+        height:56px;
+         font-family: $tipografia-extra;
+        font-size: 18px;
+        color: $color-secundario;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 24px;
+      background-color: $color-buttom;
+      &:hover{
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+      }
+      }
+  }
+//footer
+footer{
+        position:relative;
+        top:550px;
+         width:100%;
+        height:95px;
+        display: flex;
+    .footer{
+            position: absolute;
+            left:5vw;
+            top: 36px;
+            width:269px;
+            height:28px;} 
+            .iconos a:not(span){
+            font-family: 'FontAwesome5Brands-Regular';
+          font-size: 18px;
+          color:$color-secundario;
+          letter-spacing: 0;
+          line-height: 28px;
+          width: 18px;
+            height:28px ;
+            display: inline-block;
+          }
+    address a span{
+      font-family: 'FontAwesome5Brands-Regular';
+      font-size: 16px;
+     color: $color-secundario;
+      letter-spacing: 0;
+       line-height: 28px;
+        width: 16px;
+        height:28px ;
+        display: inline-block; 
+      }
+          
+   address {
+   position: absolute;
+   top: 36px;
+  right:5vw;
+   height: 28px;
+   display: grid;
+   grid-auto-flow: column;
+   grid-column-gap: 36psx;
+  }  }
